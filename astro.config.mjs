@@ -4,7 +4,7 @@ import tailwind from '@tailwindcss/vite';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://cmusuds.org', 
+  site: 'suds-cmu.github.io', 
   vite: {
     plugins: [tailwind()]
   }
