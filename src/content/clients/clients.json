@@ -1,5 +1,11 @@
 [
   {
+    "name": "Carnegie Mellon University",
+    "logo": "clients/cmu.png",
+    "url": "https://www.cmu.edu/",
+    "description": "Carnegie Mellon University - A leading research university"
+  },
+  {
     "name": "Davis Consulting Solutions",
     "logo": "clients/DCS.jpeg",
     "url": "https://davisconsultsolutions.com",
@@ -35,12 +41,23 @@
     "url": "https://pacepgh.org",
     "description": "Program to Aid Citzen Enterprise - Providing capacity-building for Pittsburgh nonprofits"
   },
-
   {
-    "name": "Carnegie Mellon University",
-    "logo": "clients/cmu.png",
-    "url": "https://www.cmu.edu/",
-    "description": "Carnegie Mellon University - A leading research university"
+    "name": "Wilkinsburg Land Bank",
+    "logo": "clients/WLB.png",
+    "url": "https://www.wilkinsburglandbank.org",
+    "description": "Wilkinsburg Land Bank - Supporting the community of Wilkinsburg"
+  },
+  {
+    "name": "Peachy Day",
+    "logo": "clients/peachyday.png",
+    "url": "https://www.peachyday.co/",
+    "description": "Peachy Day - Helping people manage their migraines and headaches"
+  },
+  {
+    "name": "Allegheny Land Trust",
+    "logo": "clients/ALC.png",
+    "url": "https://alleghenylandtrust.org",
+    "description": "Allegheny Land Trust - Helping people save local land"
   },
   {
     "name": "APA",
