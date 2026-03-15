@@ -6,39 +6,39 @@
     "linkedin": "https://www.linkedin.com/in/joanna-t/"
   },
   {
-    "name": "Zining Chen",
-    "title": "Events Director",
+    "name": "Emily Zhu",
+    "title": "Tech Lead",
     "picture": "../../assets/board/zining.avif",
-    "linkedin": "https://www.linkedin.com/in/zining-chen868/"
+    "linkedin": "https://www.linkedin.com/in/eyzhu/"
+  },
+  {
+    "name": "May Ren",
+    "title": "Tech Lead",
+    "picture": "../../assets/board/sophia.avif",
+    "linkedin": "https://www.linkedin.com/in/may-ren-396663321/"
   },
   {
     "name": "Sophia Mou",
-    "title": "Data Project Chair",
-    "picture": "../../assets/board/sophia.avif",
+    "title": "Outreach Chair",
+    "picture": "../../assets/board/jackson.avif",
     "linkedin": "https://www.linkedin.com/in/sophia-mou/"
   },
   {
     "name": "Ahana Dey",
-    "title": "Outreach Director",
+    "title": "Outreach Chair",
     "picture": "../../assets/board/ahana.avif",
     "linkedin": "https://www.linkedin.com/in/ahana-dey-96b327297/"
   },
   {
-    "name": "Jackson Chen",
-    "title": "Data Project Chair",
-    "picture": "../../assets/board/jackson.avif",
-    "linkedin": "https://www.linkedin.com/in/zanzaochen/"
-  },
-  {
-    "name": "Clement Ou",
-    "title": "Outreach Director",
+    "name": "Iris Ta",
+    "title": "Outreach Chair",
     "picture": "../../assets/board/clement.jpg",
-    "linkedin": "https://www.linkedin.com/in/clementou/"
+    "linkedin": "https://.www.linkedin.com/in/irista"
   },
   {
-    "name": "Oliver Yun",
-    "title": "Finance Director",
+    "name": "Beverly Zheng",
+    "title": "Design Chair",
     "picture": "../../assets/board/oliver.jpg",
-    "linkedin": "https://www.linkedin.com/in/oliveryun11/"
+    "linkedin": "https://www.linkedin.com/in/beverly-zheng/"
   }
 ] 
