@@ -1,5 +1,42 @@
 [
   {
+    "name": "Davis Consulting Solutions",
+    "logo": "clients/egpaf.png",
+    "url": "https://davisconsultsolutions.com",
+    "description": "Davis Consulting Solutions - Provdiing top business and workforce slutions"
+  },
+  {
+    "name": "Casa San Jose",
+    "logo": "clients/egpaf.png",
+    "url": "https://casasanjose.org/en/",
+    "description": "Casa San Jose - Connects and support the latino community"
+  },
+  {
+    "name": "Dress for Success",
+    "logo": "clients/egpaf.png",
+    "url": "https://pittsburgh.dressforsuccess.org",
+    "description": "Dress for Success - Leading resource for advancing women in the workplace globally"
+  }
+  {
+    "name": "Brookline Teen Outreach",
+    "logo": "clients/egpaf.png",
+    "url": "https://brooklineteenoutreach.org",
+    "description": "Brookline Teen Outreach - Providing quality resources for ages 10-18"
+  },
+  {
+    "name": "Melanin Mommies",
+    "logo": "clients/egpaf.png",
+    "url": "https://melaninmommiespgh.org",
+    "description": "Melanin Mommies - Providing mental health support for new mothers and their children"
+  },
+  {
+    "name": "Program to Aid Citizen Enterprise",
+    "logo": "clients/egpaf.png",
+    "url": "https://pacepgh.org",
+    "description": "Program to Aid Citzen Enterprise - Providing capacity-building for Pittsburgh nonprofits"
+  },
+
+  {
     "name": "Carnegie Mellon University",
     "logo": "clients/cmu.png",
     "url": "https://www.cmu.edu/",
@@ -16,12 +53,6 @@
     "logo": "clients/caring-place.png",
     "url": "https://www.highmarkcaringplace.com",
     "description": "The Caring Place - A center for grieving children, adolescents and their families"
-  },
-  {
-    "name": "Innovation & Performance",
-    "logo": "clients/i&p.png",
-    "url": "https://www.pittsburghpa.gov/Business-Development/Innovation-Performance",
-    "description": "Pittsburgh's Department of Innovation & Performance - Improving city services through technology and data"
   },
   {
     "name": "Women's Center & Shelter",
@@ -41,55 +72,4 @@
     "url": "https://www.bikepgh.org/",
     "description": "BikePGH - Promoting cycling and bike safety in Pittsburgh"
   },
-  {
-    "name": "Friends of the Riverfront",
-    "logo": "clients/friendsoftheriverfront.png",
-    "url": "https://www.friendsoftheriverfront.org/",
-    "description": "Friends of the Riverfront - Promoting the development of the Pittsburgh Riverfront"
-  },
-  {
-    "name": "ARYSE",
-    "logo": "clients/aryse.png",
-    "url": "https://www.arysepgh.org/"
-  },
-  {
-    "name": "Joint Center for Political and Economic Studies",
-    "logo": "clients/joint-center.png",
-    "url": "https://jointcenter.org/"
-  },
-  {
-    "name": "Elizabeth Glaser Pediatric AIDS Foundation",
-    "logo": "clients/egpaf.png",
-    "url": "https://pedaids.org/"
-  },
-  {
-    "name": "Environmental Health Project",
-    "logo": "clients/ehp.png",
-    "url": "https://www.environmentalhealthproject.org/"
-  },
-  {
-    "name": "Uptogether",
-    "logo": "clients/uptogether.png",
-    "url": "https://www.uptogether.org/"
-  },
-  {
-    "name": "New Sun Rising",
-    "logo": "clients/nsr.png",
-    "url": "https://www.newsunrising.org/"
-  },
-  {
-    "name": "Office of Natural Resources Revenue",
-    "logo": "clients/onrr.jpg",
-    "url": "https://onrr.gov/"
-  },
-  {
-    "name": "Campaign Zero",
-    "logo": "clients/campaign-zero.png",
-    "url": "https://campaignzero.org/"
-  },
-  {
-    "name": "Remake Learning",
-    "logo": "clients/remake-learning.png",
-    "url": "https://remakelearning.org/"
-  }
 ]
