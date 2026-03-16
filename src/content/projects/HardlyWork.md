@@ -4,6 +4,7 @@ partner: "Hardly"
 partnerDescription: "Hardly is a workforce development platform designed to help job centers and career support organizations collaborate more effectively with job seekers and students. The platform provides tools for resume building, job application tracking, interview preparation, and career coaching to support individuals in securing employment opportunities."
 keywords: ["User Analytics", "Workforce Development", "Predictive Modeling"]
 timeframe: "2026 Spring"
+image: "/logos/hw.png"
 ---
 
 ## Background
