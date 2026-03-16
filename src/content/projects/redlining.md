@@ -4,6 +4,7 @@ partner: "City of Pittsburgh (Department of Innovation & Performance)"
 partnerDescription: "The City of Pittsburgh’s Department of Innovation & Performance is dedicated to leveraging technology and data to enhance city services and infrastructure, ensuring a more efficient and equitable urban environment for all residents."
 keywords: ["Digital Equity", "Internet Access", "Data Visualization"]
 timeframe: "2018 Fall"
+image: "/logos/cop.png"
 ---
 
 ## Background  
