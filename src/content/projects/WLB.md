@@ -4,6 +4,7 @@ partner: "Wilkinsburg Land Bank"
 partnerDescription: "The Wilkinsburg Land Bank works to address vacancy and blight by acquiring, managing, and returning vacant or distressed properties to productive use. Through strategic redevelopment and community partnerships, the organization aims to stabilize neighborhoods and expand access to safe, affordable housing in Wilkinsburg, Pennsylvania."
 keywords: ["Property Data Analysis", "Urban Development", "Housing Policy"]
 timeframe: "2026 Spring"
+image: "/logos/WLB.png"
 ---
 
 ## Background
