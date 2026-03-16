@@ -4,6 +4,7 @@ partner: "Pittsburgh Innovation & Performance"
 partnerDescription: "Pittsburgh I&P is committed to collaborating with all City departments to help make City services convenient and accessible for residents, maintaining & securing our technology infrastructure, advancing innovative technology solutions, providing project management, data analysis, and process improvement training."
 keywords: ["Green Infrastructure", "Environmental Impact", "Urban Planning"]
 timeframe: "2024 Fall"
+image: "/logos/cop.png"
 ---
 
 ## Background
