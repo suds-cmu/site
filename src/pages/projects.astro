@@ -28,10 +28,13 @@ const placeholderImage = "/placeholder-project.svg";
 				{
 					randomizedProjects.map((project) => (
 						<div class="bg-white rounded-lg shadow-md overflow-hidden flex flex-col">
-							<div
-								class="h-48 bg-cover bg-center"
-								style={`background-image: url(${project.data.image || placeholderImage})`}
-							/>
+							<div class="h-48 flex items-center justify-center bg-gray-50 p-6">
+  								<img
+    								src={project.data.image || placeholderImage}
+    								alt={project.data.partner}
+    								class="max-h-full max-w-full object-contain"
+  								/>
+							</div>
 							<div class="p-6 flex-grow flex flex-col">
 								<h3 class="text-xl mb-2">{project.data.title}</h3>
 								<p class="text-gray-600 mb-2">
