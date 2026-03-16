@@ -4,6 +4,7 @@ partner: "Building New Hope"
 partnerDescription: "Building New Hope is a nonprofit organization dedicated to supporting sustainable development and economic opportunity in Central America. Through partnerships with small-scale coffee farmers and community programs, the organization promotes fair trade practices, community empowerment, and long-term economic sustainability."
 keywords: ["Donor Analytics", "Customer Retention", "Impact Analysis"]
 timeframe: "2026 Spring"
+image: "/logos/bnh.png"
 ---
 
 ## Background
