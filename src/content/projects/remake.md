@@ -4,6 +4,7 @@ partner: "Remake Learning"
 partnerDescription: "Remake Learning is a nonprofit initiative that fosters engaging, equitable, and innovative learning experiences, particularly targeting marginalized students through strategic community-level grant funding and advocacy."
 keywords: ["Education Equity", "Data Integration", "Grant Distribution", "Community Engagement"]
 timeframe: "2018"
+image: "/logos/rl.png"
 ---
 
 ## Background
