@@ -4,6 +4,7 @@ partner: "CMU Student Academic Success Center"
 partnerDescription: "The Student Academic Success Center (SASC) at Carnegie Mellon University provides comprehensive support services to help students achieve their academic goals, with a particular focus on those facing academic challenges or on probation."
 keywords: ["Academic Support", "Impact Analysis", "Data Visualization"]
 timeframe: "2024 Spring"
+image: "/logos/sasc.png"
 ---
 
 ## Background
