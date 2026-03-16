@@ -1,9 +1,10 @@
 ---
 title: "Analyzing Household Engagement and Financial Behavior on UpTogether"
-partner: "Family Independence Initiative (FII)"
+partner: "Uptogether/Family Independence Initiative (FII)"
 partnerDescription: "The Family Independence Initiative (FII) invests directly in low-income families, offering financial resources and the UpTogether platform to enhance social connections, facilitate goal-setting, and promote sustainable economic mobility."
 keywords: ["Economic Mobility", "Data Analysis", "Financial Behavior", "Machine Learning", "Transaction Analysis"]
 timeframe: "2018 Fall"
+image: "/logos/uptogether.png"
 ---
 
 ## Background
