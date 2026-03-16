@@ -4,6 +4,7 @@ partner: "New Sun Rising (NSR)"
 partnerDescription: "New Sun Rising is a nonprofit organization dedicated to equitable community development by supporting grassroots initiatives through fiscal sponsorship, funding, and capacity building, fostering vibrant communities grounded in culture, sustainability, and opportunity."
 keywords: ["Community Development", "GIS Mapping", "Data Visualization", "Socioeconomic Indicators"]
 timeframe: "2018 Fall - 2019 Spring"
+image: "/logos/nsr.png"
 ---
 
 ## Background
