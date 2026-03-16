@@ -4,6 +4,7 @@ partner: "Giving Credit"
 partnerDescription: "The organization is a social credit network that recognizes and capitalizes peer-to-peer lending income in low-income communities. By bringing transparency to informal lending networks and protecting peer-lenders against loss, it amplifies community finance and growth."
 keywords: ["Data Engineering", "DBT", "Financial Inclusion"]
 timeframe: "2023 Spring"
+image: "/logos/gc.png"
 ---
 
 ## Background
