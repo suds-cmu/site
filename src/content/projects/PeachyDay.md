@@ -4,6 +4,7 @@ partner: "Peachy Day"
 partnerDescription: "Peachy Day is a digital health platform designed to support individuals managing migraines by allowing users to track symptoms, triggers, and lifestyle factors. Through data-driven insights and personalized recommendations, the platform aims to help users better understand their migraine patterns and improve symptom management."
 keywords: ["User Analytics", "Predictive Modeling", "Health Data"]
 timeframe: "2026 Spring"
+image: "/logos/peachyday.png"
 ---
 
 ## Background
