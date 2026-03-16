@@ -4,6 +4,7 @@ partner: "CeaseFirePA"
 partnerDescription: "CeaseFirePA is the Commonwealth's leader advocating for an end to gun violence. They target issues including gun violence in Pennsylvania, firearm suicide, mass shootings, community violence etc. It advocates for gun violence prevention legislation in Pennsylvania and stood up to the gun lobby when they've tried to punish local officials working to save lives or repeal important gun safety laws already in place."
 keywords: ["Gun Violence", "GIS Mapping", "Data Visualization"]
 timeframe: "2023 Spring"
+image: "/logos/c.jpg"
 ---
 
 ## Background
