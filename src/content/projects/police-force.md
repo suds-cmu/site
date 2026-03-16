@@ -4,6 +4,7 @@ partner: "Campaign Zero"
 partnerDescription: "Campaign Zero is a research and advocacy organization dedicated to ending police violence through data-driven analysis, informed policy recommendations, and robust public engagement."
 keywords: ["Police Accountability", "Machine Learning", "Data Visualization", "Policy Analysis"]
 timeframe: "2018 Fall"
+image: "/logos/cz.jpg"
 ---
 
 ## Background
