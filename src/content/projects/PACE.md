@@ -4,6 +4,7 @@ partner: "PACE"
 partnerDescription: "PACE (Program to Aid Citizen Enterprise) is a nonprofit organization that supports community-based organizations and social entrepreneurs through capacity-building programs, training, and intensive support services. PACE works to strengthen nonprofit leadership and organizational effectiveness across the Pittsburgh region."
 keywords: ["Impact Dashboard", "Program Evaluation", "Capacity Building Analytics"]
 timeframe: "2026 Spring"
+image: "/logos/PACE.png"
 ---
 
 ## Background
