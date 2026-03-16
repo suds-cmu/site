@@ -4,7 +4,7 @@ partner: "Casa San José"
 partnerDescription: "Casa San José is a Pittsburgh-based nonprofit organization that supports and advocates for Latino and immigrant communities. The organization provides resources such as legal assistance, community support programs, and emergency response services while promoting dignity, equity, and empowerment for immigrant families."
 keywords: ["Salesforce Analytics", "Data Visualization", "Impact Reporting"]
 timeframe: "2026 Spring"
-image: "logos/CSA.png"
+image: "logos/CSA.png" 
 ---
 
 ## Background
