@@ -4,6 +4,7 @@ partner: "Elizabeth Glaser Pediatric AIDS Foundation (EGPAF)"
 partnerDescription: "The Elizabeth Glaser Pediatric AIDS Foundation (EGPAF) is a global leader dedicated to eliminating pediatric HIV/AIDS through innovative clinical programs, targeted research, and evidence-based advocacy across 17 countries."
 keywords: ["HIV/AIDS", "Data Collection", "Power BI", "Global Health", "Data Visualization"]
 timeframe: "2020"
+image: "/logos/egpaf.jpg"
 ---
 
 ## Background
