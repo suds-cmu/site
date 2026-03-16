@@ -4,6 +4,7 @@ partner: "BikePGH"
 partnerDescription: "BikePGH's mission is to transform Pittsburgh streets to make biking and walking commonplace for all Pittsburghers. Their main goal is to improve the quality of life and reduce the harmful effects of car dependence in Pittsburgh."
 keywords: ["Bike Infrastructure", "GIS Mapping", "Urban Planning"]
 timeframe: "2022 Fall"
+image: "/logos/bikepgh.png"
 ---
 
 ## Background
