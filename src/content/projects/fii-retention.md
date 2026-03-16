@@ -4,7 +4,7 @@ partner: "Up Together/Family Independence Initiative (FII)"
 partnerDescription: "The Family Independence Initiative (FII) invests in low-income families through direct financial support and the UpTogether platform, empowering them to build strong social networks, achieve goals, and foster economic mobility."
 keywords: ["Economic Mobility", "Data Analysis", "Social Impact", "Visualization"]
 timeframe: "2018 Fall"
-image: "/logos/uptogether.png"
+image: "/logos/up.jpg"
 ---
 
 ## Background
