@@ -4,6 +4,7 @@ partner: "Friends of the Riverfront"
 partnerDescription: "The organization builds and maintains the 33+ miles of the Three Rivers Heritage Trail and Water Trail, working towards and promote environmental restoration, economic vitality, and public health benefits for Allegheny County and Southwestern Pennsylvania."
 keywords: ["Trail Usage", "Predictive Modeling", "Data Visualization"]
 timeframe: "2024 Fall"
+image: "/logos/for.png"
 ---
 
 ## Background
