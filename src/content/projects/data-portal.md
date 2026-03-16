@@ -4,6 +4,7 @@ partner: "Joint Center for Political and Economic Studies"
 partnerDescription: "The Joint Center for Political and Economic Studies is a pioneering think tank dedicated to advancing policy solutions to improve the socioeconomic status and civic engagement of Black and African American communities."
 keywords: ["Data Portal", "Socioeconomic Indicators", "Tableau Mapping", "GIS", "Data Visualization"]
 timeframe: "2018 Fall"
+image: "/logos/jc.png"
 ---
 
 ## Background
