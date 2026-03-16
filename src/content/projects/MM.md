@@ -4,6 +4,7 @@ partner: "Melanin Mommies"
 partnerDescription: "Melanin Mommies is a community-based organization dedicated to supporting Black mothers and families through programs focused on wellness, safety, and youth development. Their initiatives address mental health support, community safety, and childhood development through programs such as H.E.A.L Together and Black Babies Swim."
 keywords: ["Program Evaluation", "Impact Reporting", "Data Infrastructure"]
 timeframe: "2026 Spring"
+image: "/logos/MelaninMommies.png"
 ---
 
 ## Background
