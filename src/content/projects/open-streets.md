@@ -4,6 +4,7 @@ partner: "BikePGH"
 partnerDescription: "BikePGH is a non-profit organization dedicated to transforming Pittsburgh streets to prioritize biking and walking, aiming to enhance quality of life and reduce the city's dependence on cars."
 keywords: ["Bike and Pedestrian Infrastructure", "Open Streets", "Data Visualization", "Community Engagement"]
 timeframe: "2018 Fall"
+image: "/logos/bikeshare.png"
 ---
 
 ## Background
