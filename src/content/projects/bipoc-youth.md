@@ -4,6 +4,7 @@ partner: "Alliance for Refugee Youth Support and Education (ARYSE)"
 partnerDescription: "ARYSE supports Pittsburgh's immigrant and refugee youth through educational, social, and leadership programs, fostering safe, inclusive, and empowering communities."
 keywords: ["Community Safety", "Immigrant Youth", "Police Relations", "Data Analysis", "Youth Empowerment"]
 timeframe: "2018 Fall"
+image: "/logos/aryse.png"
 ---
 
 ## Background
