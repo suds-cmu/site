@@ -4,7 +4,7 @@ partner: "Allegheny Land Trust"
 partnerDescription: "Allegheny Land Trust's mission is helping local people save local land in the Pittsburgh Region. Protecting more than 4,134 acres of green space across 43 municipalities in Allegheny and Washington Counties, ALT works to conserve land that supports the region’s scenic landscapes, biodiversity, and water quality."
 keywords: ["Environmental Data", "Conservation Metrics", "Data Visualization"]
 timeframe: "2026 Spring"
-image: "assets/clients/ALC.png"
+image: "clients/ALC.png"
 ---
 
 ## Background
