@@ -4,6 +4,7 @@ partner: "Alliance for Police Accountability"
 partnerDescription: "Alliance for Police Accountability is dedicated to criminal justice reconstruction, specializing in community/police relations."
 keywords: ["marijuana decriminalization", "Dashboard", "Map visualization"]
 timeframe: "2024 Fall"
+image: "/logos/apa.png"
 ---
 
 ## Background
