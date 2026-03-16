@@ -4,6 +4,7 @@ partner: "Environmental Health Project (EHP)"
 partnerDescription: "The Environmental Health Project (EHP) provides timely, science-based environmental health information and support to communities impacted by unconventional oil and gas development, with a particular focus on air and water quality and related public health issues."
 keywords: ["Environmental Health", "Air Quality Monitoring", "Data Management", "GIS Visualization"]
 timeframe: "2018 Spring"
+image: "/logos/ehp.png"
 ---
 
 ## Background
