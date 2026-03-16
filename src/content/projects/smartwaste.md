@@ -4,6 +4,7 @@ partner: "City of Pittsburgh, Departments of Innovation & Performance (I&P) and 
 partnerDescription: "The City of Pittsburgh's departments of Innovation & Performance and Public Works collaborate to enhance municipal operations through technology and innovative practices, aiming to improve city services efficiency and sustainability."
 keywords: ["Smart Waste Management", "Routing Optimization", "Predictive Modeling", "GIS Mapping"]
 timeframe: "2018 Spring"
+image: "/logos/sw.png"
 ---
 
 ## Background
