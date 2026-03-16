@@ -4,6 +4,7 @@ partner: "Women's Center and Shelter of Greater Pittsburgh"
 partnerDescription: "A non-profit organization that provides an array of services for victims and survivors of domestic violence. Their services include hotline services, support groups, adult individual therapy, children's counseling, various advocacy programs, and emergency shelters."
 keywords: ["Mental Health", "Data Analysis", "Domestic Violence"]
 timeframe: "2023 - 2024"
+image: "/logos/wcs.jpeg"
 ---
 
 ## Background
