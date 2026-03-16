@@ -4,6 +4,7 @@ partner: "Office of Natural Resources Revenue (ONRR), U.S. Department of the Int
 partnerDescription: "The Office of Natural Resources Revenue (ONRR), part of the U.S. Department of the Interior, ensures responsible collection and transparent distribution of natural resource revenues, leveraging open data initiatives to enhance government accountability."
 keywords: ["Data Visualization", "Open Data", "Government Transparency", "D3.js", "React"]
 timeframe: "2018"
+image: "/logos/onrr.jpg"
 ---
 
 ## Background
