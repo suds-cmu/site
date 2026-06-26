@@ -2,43 +2,43 @@
   {
     "name": "Joanna Tan",
     "title": "Executive Director",
-    "picture": "../../assets/board/Joanna.JPG",
+    "picture": "/board/Joanna.JPG",
     "linkedin": "https://www.linkedin.com/in/joanna-t/"
   },
   {
     "name": "Emily Zhu",
     "title": "Tech Lead",
-    "picture": "../../assets/board/Emily.png",
+    "picture": "/board/Emily.png",
     "linkedin": "https://www.linkedin.com/in/eyzhu/"
   },
   {
     "name": "May Ren",
     "title": "Tech Lead",
-    "picture": "../../assets/board/May.JPG",
+    "picture": "/board/May.JPG",
     "linkedin": "https://www.linkedin.com/in/may-ren-396663321/"
   },
   {
     "name": "Sophia Mou",
     "title": "Outreach Chair",
-    "picture": "../../assets/board/Sophia.JPG",
+    "picture": "/board/Sophia.JPG",
     "linkedin": "https://www.linkedin.com/in/sophia-mou/"
   },
   {
     "name": "Ahana Dey",
     "title": "Outreach Chair",
-    "picture": "../../assets/board/Ahana.png",
+    "picture": "/board/Ahana.png",
     "linkedin": "https://www.linkedin.com/in/ahana-dey-96b327297/"
   },
   {
     "name": "Iris Ta",
     "title": "Outreach Chair",
-    "picture": "../../assets/board/Iris.jpg",
-    "linkedin": "https://.www.linkedin.com/in/irista"
+    "picture": "/board/Iris.jpg",
+    "linkedin": "https://www.linkedin.com/in/irista"
   },
   {
     "name": "Beverly Zheng",
     "title": "Design Chair",
-    "picture": "../../assets/board/Beverly.JPG",
+    "picture": "/board/Beverly.JPG",
     "linkedin": "https://www.linkedin.com/in/beverly-zheng/"
   }
-] 
+]
