@@ -12,16 +12,24 @@
   --color-gray-700: #374151;
   --color-gray-800: #1f2937;
   --color-gray-900: #111827;
+  --color-primary-50: #eff6ff;
+  --color-primary-100: #dbeafe;
+  --color-primary-600: #2563eb;
+  --color-primary-700: #1d4ed8;
+  --color-accent-50: #eff6ff;
+  --color-accent-100: #dbeafe;
+  --color-accent-200: #bfdbfe;
   --color-accent-300: #93c5fd;
   --color-accent-400: #60a5fa;
   --color-accent-500: #3b82f6;
   --color-accent-600: #2563eb;
   --color-accent-700: #1d4ed8;
+  --color-accent-800: #1e40af;
 }
 
 @layer base {
   html {
-    font-family: 'Poppins', system-ui, sans-serif;
+    font-family: "Poppins", system-ui, sans-serif;
   }
 
   body {
@@ -63,5 +71,31 @@
 
   .client-logo {
     @apply grayscale hover:grayscale-0 transition-all duration-300 ease-in-out;
+  }
+}
+
+@layer components {
+  .prose-content h2 {
+    @apply text-2xl font-bold text-black mt-8 mb-4;
+  }
+
+  .prose-content h3 {
+    @apply text-xl font-bold text-black mt-6 mb-3;
+  }
+
+  .prose-content p {
+    @apply text-gray-700 leading-relaxed;
+  }
+
+  .prose-content ul {
+    @apply list-disc pl-6 my-4 text-gray-700;
+  }
+
+  .prose-content li {
+    @apply my-1;
+  }
+
+  .prose-content a {
+    @apply text-accent-600 hover:text-accent-700 underline;
   }
 }
