@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 };
 
 export default function HomePage() {
-  const clients = getClients();
+  const clients = getClients(6);
 
   return (
     <>
@@ -59,26 +59,34 @@ export default function HomePage() {
             organizations committed to making a positive impact. Here are some of
             the partners we&apos;ve collaborated with on data-driven projects.
           </p>
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6 max-w-6xl mx-auto">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
             {clients.map((client) => (
-              <div key={client.name} className="flex items-center justify-center">
-                <a
-                  href={client.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="w-full"
-                >
-                  <div className="client-logo w-[150px] h-[150px] flex items-center justify-center mx-auto">
-                    <Image
-                      src={`/${client.logo}`}
-                      alt={`${client.name} logo`}
-                      width={300}
-                      height={300}
-                      className="object-contain max-w-full max-h-full"
-                    />
-                  </div>
-                </a>
-              </div>
+              <a
+                key={client.name}
+                href={client.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-white shadow-md rounded-lg p-6 flex flex-col text-inherit hover:shadow-lg transition-shadow"
+              >
+                <div className="h-28 flex items-center justify-center mb-4">
+                  <Image
+                    src={`/${client.logo}`}
+                    alt={`${client.name} logo`}
+                    width={220}
+                    height={120}
+                    className="object-contain max-h-28 w-auto"
+                  />
+                </div>
+                <h3 className="text-lg font-semibold mb-2">{client.name}</h3>
+                {client.description && (
+                  <p className="text-gray-600 text-sm mb-4 flex-grow">
+                    {client.description}
+                  </p>
+                )}
+                <span className="text-accent-600 font-medium text-sm">
+                  Visit website →
+                </span>
+              </a>
             ))}
           </div>
           <div className="text-center mt-12">

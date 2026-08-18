@@ -7,6 +7,7 @@ export const projectSchema = z.object({
   keywords: z.array(z.string()).optional(),
   image: z.string().optional(),
   timeframe: z.string(),
+  featured: z.boolean().optional(),
   draft: z.boolean().optional().default(false),
 });
 

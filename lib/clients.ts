@@ -10,6 +10,7 @@ const clientSchema = z.object({
 
 export type Client = z.infer<typeof clientSchema>;
 
-export function getClients(): Client[] {
-  return z.array(clientSchema).parse(clientsData);
+export function getClients(limit?: number): Client[] {
+  const clients = z.array(clientSchema).parse(clientsData);
+  return typeof limit === "number" ? clients.slice(0, limit) : clients;
 }

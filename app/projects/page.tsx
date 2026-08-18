@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import Link from "next/link";
-import { getAllProjects } from "@/lib/projects";
+import { getProjectsGroupedBySemester } from "@/lib/projects";
 
 export const metadata: Metadata = {
   title: "Projects",
@@ -10,17 +9,17 @@ export const metadata: Metadata = {
 const placeholderImage = "/placeholder-project.svg";
 
 export default function ProjectsPage() {
-  const projects = [...getAllProjects()].sort(() => Math.random() - 0.5);
+  const semesterGroups = getProjectsGroupedBySemester(3);
 
   return (
     <>
       <section className="bg-gradient-to-br from-accent-50 to-white py-16">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center">
-            <h1 className="mb-6">Our Projects</h1>
+            <h1 className="mb-6">Top Projects in SUDS</h1>
             <p className="text-xl text-gray-700">
-              Explore how we&apos;ve helped organizations leverage data to create
-              positive social impact.
+              A chronological look at featured SUDS partnerships, grouped by
+              semester.
             </p>
           </div>
         </div>
@@ -28,35 +27,50 @@ export default function ProjectsPage() {
 
       <section className="py-16">
         <div className="container mx-auto px-4">
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {projects.map((project) => (
-              <div
-                key={project.slug}
-                className="bg-white rounded-lg shadow-md overflow-hidden flex flex-col"
-              >
-                <div className="h-48 flex items-center justify-center bg-gray-50 p-6">
-                  <img
-                    src={project.frontmatter.image || placeholderImage}
-                    alt={project.frontmatter.partner}
-                    className="max-h-full max-w-full object-contain"
-                  />
+          <div className="space-y-16">
+            {semesterGroups.map((group) => (
+              <div key={group.timeframe}>
+                <div className="flex items-end justify-between gap-4 mb-8">
+                  <h2>{group.label}</h2>
+                  <p className="text-gray-500 mb-1">
+                    {group.projects.length}{" "}
+                    {group.projects.length === 1 ? "project" : "projects"}
+                  </p>
                 </div>
-                <div className="p-6 flex-grow flex flex-col">
-                  <h3 className="text-xl mb-2">{project.frontmatter.title}</h3>
-                  <p className="text-gray-600 mb-2">
-                    Partner: {project.frontmatter.partner}
-                  </p>
-                  <p className="text-gray-600 mb-3">
-                    {project.frontmatter.timeframe}
-                  </p>
-                  <div className="mt-auto">
-                    <Link
-                      href={`/projects/${project.slug}`}
-                      className="text-accent-600 hover:text-accent-800 font-medium"
+                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                  {group.projects.map((project) => (
+                    <div
+                      key={project.slug}
+                      className="bg-white rounded-lg shadow-md overflow-hidden flex flex-col"
                     >
-                      View Project Details →
-                    </Link>
-                  </div>
+                      <div className="h-48 flex items-center justify-center bg-gray-50 p-6">
+                        <img
+                          src={project.frontmatter.image || placeholderImage}
+                          alt={project.frontmatter.partner}
+                          className="max-h-full max-w-full object-contain"
+                        />
+                      </div>
+                      <div className="p-6 flex-grow flex flex-col">
+                        <h3 className="text-xl mb-2">
+                          {project.frontmatter.title}
+                        </h3>
+                        <p className="text-gray-600 mb-2">
+                          Partner: {project.frontmatter.partner}
+                        </p>
+                        <p className="text-gray-600 mb-3">
+                          {project.frontmatter.timeframe}
+                        </p>
+                        <div className="mt-auto">
+                          <Link
+                            href={`/projects/${project.slug}`}
+                            className="text-accent-600 hover:text-accent-800 font-medium"
+                          >
+                            View Project Details →
+                          </Link>
+                        </div>
+                      </div>
+                    </div>
+                  ))}
                 </div>
               </div>
             ))}
