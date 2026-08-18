@@ -399,7 +399,7 @@ export default function ForStudentsPage() {
                   rel="noopener noreferrer"
                   className="inline-flex shrink-0 items-center justify-center rounded-xl bg-accent-600 px-7 py-3.5 font-semibold text-white shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:bg-accent-700 hover:shadow-md"
                 >
-                  Join Our Mailing List
+                  Join Our Tartan Connect
                 </a>
               </div>
             </div>
