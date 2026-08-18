@@ -68,10 +68,6 @@
   .cta-button {
     @apply bg-accent-600 hover:bg-accent-700 text-white font-medium py-2 px-4 rounded transition-colors inline-flex items-center justify-center;
   }
-
-  .client-logo {
-    @apply grayscale hover:grayscale-0 transition-all duration-300 ease-in-out;
-  }
 }
 
 @layer components {

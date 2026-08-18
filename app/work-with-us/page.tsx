@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import ProjectInterestForm from "@/components/ProjectInterestForm";
+import { getProjectInterestForm } from "@/lib/forms";
 
 export const metadata: Metadata = {
   title: "Work With Us",
@@ -48,20 +50,14 @@ const whyPartner = [
 const offerings = [
   {
     title: "Data Analysis",
-    description:
-      "Extract insights from your existing data to inform decision-making and strategy.",
     items: ["Exploratory data analysis", "Statistical modeling", "Data visualization"],
   },
   {
     title: "Machine Learning Solutions",
-    description:
-      "Develop predictive models and automated systems to enhance your operations.",
     items: ["Predictive modeling", "Natural language processing", "Computer vision"],
   },
   {
     title: "Data Tools & Dashboards",
-    description:
-      "Build custom tools and visualizations to help you interact with and understand your data.",
     items: ["Interactive dashboards", "Data pipelines", "Custom web applications"],
   },
 ];
@@ -91,6 +87,8 @@ const processSteps = [
 ];
 
 export default function WorkWithUsPage() {
+  const projectInterestForm = getProjectInterestForm();
+
   return (
     <>
       <section className="bg-gradient-to-br from-primary-50 to-white py-16">
@@ -108,7 +106,7 @@ export default function WorkWithUsPage() {
       <section className="py-16">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
-            <div className="grid md:grid-cols-2 gap-12 mb-16">
+            <div className="grid md:grid-cols-2 gap-12 items-start">
               <div>
                 <h2 className="mb-6">Why Partner With Us?</h2>
                 <div className="space-y-6">
@@ -128,35 +126,39 @@ export default function WorkWithUsPage() {
                 </div>
               </div>
               <div>
-                <h2 className="mb-6">What We Offer</h2>
-                {offerings.map((offering) => (
-                  <div key={offering.title} className="bg-white shadow-md rounded-lg p-6 mb-6 last:mb-0">
-                    <h3 className="text-lg font-medium mb-3">{offering.title}</h3>
-                    <p className="text-gray-600 mb-4">{offering.description}</p>
-                    <ul className="text-sm text-gray-600 space-y-1">
-                      {offering.items.map((item) => (
-                        <li key={item} className="flex items-center">
-                          <CheckIcon />
-                          {item}
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                ))}
+                <h2 className="mb-6">What You Get From a Project</h2>
+                <div className="space-y-3">
+                  {offerings.map((offering) => (
+                    <div key={offering.title} className="bg-white shadow-md rounded-lg px-5 py-4">
+                      <h3 className="text-lg font-medium mb-1">{offering.title}</h3>
+                      <ul className="text-sm text-gray-600 space-y-0.5">
+                        {offering.items.map((item) => (
+                          <li key={item} className="flex items-center">
+                            <CheckIcon />
+                            {item}
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  ))}
+                </div>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
 
-            <div className="bg-white shadow-md rounded-lg p-8 mb-16">
-              <h2 className="text-center mb-8">Contact Us</h2>
-              <p className="text-center text-gray-600 mb-8">
-                Interested in working with us? Please email us directly at{" "}
-                <a href="mailto:sudscmu@gmail.com" className="text-primary-600 hover:text-primary-800">
-                  sudscmu@gmail.com
-                </a>
-                .
-              </p>
-            </div>
+      <section className="pb-16">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto">
+            <ProjectInterestForm form={projectInterestForm} />
+          </div>
+        </div>
+      </section>
 
+      <section className="pb-16">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto">
             <div className="bg-primary-50 rounded-lg p-8">
               <h2 className="text-center mb-6">Our Process</h2>
               <div className="grid md:grid-cols-4 gap-4">
