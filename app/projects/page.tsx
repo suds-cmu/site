@@ -8,24 +8,6 @@ export const metadata: Metadata = {
 
 const placeholderImage = "/placeholder-project.svg";
 
-const futurePractices = [
-  {
-    title: "Take 3 per semester",
-    description:
-      "We feature up to three projects each semester so this page stays focused on our strongest, most recent work.",
-  },
-  {
-    title: "Check with clients",
-    description:
-      "Before a project is highlighted here, we confirm with the partner that we can share the story publicly.",
-  },
-  {
-    title: "Video record & incentivize",
-    description:
-      "We video-record project outcomes and incentivize teams and partners to help tell the story of the work.",
-  },
-];
-
 export default function ProjectsPage() {
   const semesterGroups = getProjectsGroupedBySemester(3);
 
@@ -39,32 +21,6 @@ export default function ProjectsPage() {
               A chronological look at featured SUDS partnerships, grouped by
               semester.
             </p>
-          </div>
-        </div>
-      </section>
-
-      <section className="py-16 bg-gray-50">
-        <div className="container mx-auto px-4">
-          <div className="max-w-5xl mx-auto">
-            <h2 className="text-center mb-4">For Future Practices</h2>
-            <p className="text-center text-gray-600 mb-10 max-w-2xl mx-auto">
-              How we will keep this page current as new projects wrap each
-              semester.
-            </p>
-            <div className="grid md:grid-cols-3 gap-8">
-              {futurePractices.map((practice, index) => (
-                <div
-                  key={practice.title}
-                  className="bg-white shadow-md rounded-lg p-6"
-                >
-                  <div className="w-10 h-10 bg-accent-100 rounded-full flex items-center justify-center mb-4">
-                    <span className="font-bold text-accent-700">{index + 1}</span>
-                  </div>
-                  <h3 className="text-xl mb-2">{practice.title}</h3>
-                  <p className="text-gray-600">{practice.description}</p>
-                </div>
-              ))}
-            </div>
           </div>
         </div>
       </section>
