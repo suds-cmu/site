@@ -95,7 +95,7 @@ const processSteps = [
 ];
 
 export default function WorkWithUsPage() {
-  const clients = getClients();
+  const clients = getClients(6);
   const projectInterestForm = getProjectInterestForm();
 
   return (
@@ -159,11 +159,11 @@ export default function WorkWithUsPage() {
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
-            <h2 className="text-center mb-4">Our Clients</h2>
+            <h2 className="text-center mb-4">Past Clients</h2>
             <p className="text-center text-gray-600 max-w-2xl mx-auto mb-12">
-              We partner with nonprofits, public agencies, and social-impact
-              organizations across Pittsburgh and beyond. Here is the full client
-              list we currently work with and have worked with.
+              We&apos;ve partnered with nonprofits, public agencies, and
+              social-impact organizations across Pittsburgh and beyond. Here are
+              a few of the partners we&apos;ve worked with.
             </p>
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
               {clients.map((client) => (
