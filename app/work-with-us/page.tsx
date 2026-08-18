@@ -151,6 +151,14 @@ export default function WorkWithUsPage() {
       <section className="pb-16">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
+            <ProjectInterestForm form={projectInterestForm} />
+          </div>
+        </div>
+      </section>
+
+      <section className="pb-16">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto">
             <div className="bg-primary-50 rounded-lg p-8">
               <h2 className="text-center mb-6">Our Process</h2>
               <div className="grid md:grid-cols-4 gap-4">
@@ -165,14 +173,6 @@ export default function WorkWithUsPage() {
                 ))}
               </div>
             </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="pb-16">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
-            <ProjectInterestForm form={projectInterestForm} />
           </div>
         </div>
       </section>
