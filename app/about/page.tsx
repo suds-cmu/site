@@ -15,7 +15,7 @@ export default function AboutPage() {
       <section className="bg-gradient-to-br from-primary-50 to-white py-16">
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto text-center">
-            <h1 className="mb-6">About SUDS</h1>
+            <h1 className="mb-6">ABOUT SUDS</h1>
             <p className="text-xl text-gray-700">
               Learn about our mission, history, and the team behind Students Using
               Data for Social Good.
