@@ -1,0 +1,11 @@
+{
+  "clientContact": {
+    "title": "Client Contact",
+    "description": "Questions, introductions, or general inquiries. Use the Google Drive contact form when available, or send us a message below.",
+    "googleDriveUrl": ""
+  },
+  "projectInterest": {
+    "title": "Project Interest",
+    "description": "Share a project idea and we will follow up to see whether SUDS is a good fit."
+  }
+}

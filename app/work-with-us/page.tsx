@@ -1,4 +1,9 @@
 import type { Metadata } from "next";
+import Image from "next/image";
+import ClientContactForm from "@/components/ClientContactForm";
+import ProjectInterestForm from "@/components/ProjectInterestForm";
+import { getClients } from "@/lib/clients";
+import { getSiteForms } from "@/lib/forms";
 
 export const metadata: Metadata = {
   title: "Work With Us",
@@ -91,6 +96,9 @@ const processSteps = [
 ];
 
 export default function WorkWithUsPage() {
+  const clients = getClients();
+  const forms = getSiteForms();
+
   return (
     <>
       <section className="bg-gradient-to-br from-primary-50 to-white py-16">
@@ -145,18 +153,72 @@ export default function WorkWithUsPage() {
                 ))}
               </div>
             </div>
+          </div>
+        </div>
+      </section>
 
-            <div className="bg-white shadow-md rounded-lg p-8 mb-16">
-              <h2 className="text-center mb-8">Contact Us</h2>
-              <p className="text-center text-gray-600 mb-8">
-                Interested in working with us? Please email us directly at{" "}
-                <a href="mailto:sudscmu@gmail.com" className="text-primary-600 hover:text-primary-800">
-                  sudscmu@gmail.com
+      <section className="py-16 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-6xl mx-auto">
+            <h2 className="text-center mb-4">Our Clients</h2>
+            <p className="text-center text-gray-600 max-w-2xl mx-auto mb-12">
+              We partner with nonprofits, public agencies, and social-impact
+              organizations across Pittsburgh and beyond. Here is the full client
+              list we currently work with and have worked with.
+            </p>
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+              {clients.map((client) => (
+                <a
+                  key={client.name}
+                  href={client.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-white shadow-md rounded-lg p-6 flex flex-col text-inherit hover:shadow-lg transition-shadow"
+                >
+                  <div className="h-28 flex items-center justify-center mb-4">
+                    <Image
+                      src={`/${client.logo}`}
+                      alt={`${client.name} logo`}
+                      width={220}
+                      height={120}
+                      className="object-contain max-h-28 w-auto"
+                    />
+                  </div>
+                  <h3 className="text-lg font-semibold mb-2">{client.name}</h3>
+                  {client.description && (
+                    <p className="text-gray-600 text-sm mb-4 flex-grow">
+                      {client.description}
+                    </p>
+                  )}
+                  <span className="text-accent-600 font-medium text-sm">
+                    Visit website →
+                  </span>
                 </a>
-                .
-              </p>
+              ))}
             </div>
+          </div>
+        </div>
+      </section>
 
+      <section className="py-16">
+        <div className="container mx-auto px-4">
+          <div className="max-w-6xl mx-auto">
+            <h2 className="text-center mb-4">Client Forms</h2>
+            <p className="text-center text-gray-600 max-w-2xl mx-auto mb-12">
+              Choose the form that fits your needs. Contact opens our Google Drive
+              form, and project interest helps us scope a possible partnership.
+            </p>
+            <div className="grid lg:grid-cols-2 gap-8 items-start">
+              <ClientContactForm form={forms.clientContact} />
+              <ProjectInterestForm form={forms.projectInterest} />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="pb-16">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto">
             <div className="bg-primary-50 rounded-lg p-8">
               <h2 className="text-center mb-6">Our Process</h2>
               <div className="grid md:grid-cols-4 gap-4">
