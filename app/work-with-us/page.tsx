@@ -1,7 +1,5 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import ProjectInterestForm from "@/components/ProjectInterestForm";
-import { getClients } from "@/lib/clients";
 import { getProjectInterestForm } from "@/lib/forms";
 
 export const metadata: Metadata = {
@@ -95,7 +93,6 @@ const processSteps = [
 ];
 
 export default function WorkWithUsPage() {
-  const clients = getClients(6);
   const projectInterestForm = getProjectInterestForm();
 
   return (
@@ -115,7 +112,7 @@ export default function WorkWithUsPage() {
       <section className="py-16">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
-            <div className="grid md:grid-cols-2 gap-12 mb-16">
+            <div className="grid md:grid-cols-2 gap-12">
               <div>
                 <h2 className="mb-6">Why Partner With Us?</h2>
                 <div className="space-y-6">
@@ -135,7 +132,7 @@ export default function WorkWithUsPage() {
                 </div>
               </div>
               <div>
-                <h2 className="mb-6">What We Offer</h2>
+                <h2 className="mb-6">What You Get From a Project</h2>
                 {offerings.map((offering) => (
                   <div key={offering.title} className="bg-white shadow-md rounded-lg p-6 mb-6 last:mb-0">
                     <h3 className="text-lg font-medium mb-3">{offering.title}</h3>
@@ -156,50 +153,7 @@ export default function WorkWithUsPage() {
         </div>
       </section>
 
-      <section className="py-16 bg-gray-50">
-        <div className="container mx-auto px-4">
-          <div className="max-w-6xl mx-auto">
-            <h2 className="text-center mb-4">Past Clients</h2>
-            <p className="text-center text-gray-600 max-w-2xl mx-auto mb-12">
-              We&apos;ve partnered with nonprofits, public agencies, and
-              social-impact organizations across Pittsburgh and beyond. Here are
-              a few of the partners we&apos;ve worked with.
-            </p>
-            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
-              {clients.map((client) => (
-                <a
-                  key={client.name}
-                  href={client.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="bg-white shadow-md rounded-lg p-6 flex flex-col text-inherit hover:shadow-lg transition-shadow"
-                >
-                  <div className="h-28 flex items-center justify-center mb-4">
-                    <Image
-                      src={`/${client.logo}`}
-                      alt={`${client.name} logo`}
-                      width={220}
-                      height={120}
-                      className="object-contain max-h-28 w-auto"
-                    />
-                  </div>
-                  <h3 className="text-lg font-semibold mb-2">{client.name}</h3>
-                  {client.description && (
-                    <p className="text-gray-600 text-sm mb-4 flex-grow">
-                      {client.description}
-                    </p>
-                  )}
-                  <span className="text-accent-600 font-medium text-sm">
-                    Visit website →
-                  </span>
-                </a>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="py-16">
+      <section className="pb-16">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <ProjectInterestForm form={projectInterestForm} />
