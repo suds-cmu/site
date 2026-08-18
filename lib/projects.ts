@@ -81,14 +81,21 @@ export function getProjectsGroupedBySemester(
   }
 
   return [...groups.entries()]
-    .map(([timeframe, projects]) => ({
-      timeframe,
-      label: formatSemesterLabel(timeframe),
-      sortKey: timeframeSortKey(timeframe),
-      projects: [...projects]
-        .sort((a, b) => a.frontmatter.title.localeCompare(b.frontmatter.title))
-        .slice(0, limitPerSemester),
-    }))
+    .map(([timeframe, projects]) => {
+      const sorted = [...projects].sort((a, b) =>
+        a.frontmatter.title.localeCompare(b.frontmatter.title),
+      );
+      const featured = sorted.filter((project) => project.frontmatter.featured);
+      const selected =
+        featured.length > 0 ? featured.slice(0, limitPerSemester) : sorted;
+
+      return {
+        timeframe,
+        label: formatSemesterLabel(timeframe),
+        sortKey: timeframeSortKey(timeframe),
+        projects: selected,
+      };
+    })
     .sort((a, b) => b.sortKey - a.sortKey || b.label.localeCompare(a.label));
 }
 

@@ -12,7 +12,7 @@ const futurePractices = [
   {
     title: "Take 3 per semester",
     description:
-      "We feature up to three projects each semester so the page stays focused on our strongest, most recent work.",
+      "We feature up to three projects each semester so this page stays focused on our strongest, most recent work.",
   },
   {
     title: "Check with clients",
@@ -77,7 +77,7 @@ export default function ProjectsPage() {
                 <div className="flex items-end justify-between gap-4 mb-8">
                   <h2>{group.label}</h2>
                   <p className="text-gray-500 mb-1">
-                    {group.projects.length} featured{" "}
+                    {group.projects.length}{" "}
                     {group.projects.length === 1 ? "project" : "projects"}
                   </p>
                 </div>

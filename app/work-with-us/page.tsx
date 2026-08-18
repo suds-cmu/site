@@ -205,8 +205,9 @@ export default function WorkWithUsPage() {
           <div className="max-w-6xl mx-auto">
             <h2 className="text-center mb-4">Client Forms</h2>
             <p className="text-center text-gray-600 max-w-2xl mx-auto mb-12">
-              Choose the form that fits your needs. Contact opens our Google Drive
-              form, and project interest helps us scope a possible partnership.
+              Choose the form that fits your needs. The contact form links to
+              Google Drive, and the project interest form helps us scope a
+              possible partnership.
             </p>
             <div className="grid lg:grid-cols-2 gap-8 items-start">
               <ClientContactForm form={forms.clientContact} />
