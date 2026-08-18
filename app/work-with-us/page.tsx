@@ -127,11 +127,11 @@ export default function WorkWithUsPage() {
               </div>
               <div>
                 <h2 className="mb-6">What You Get From a Project</h2>
-                <div className="space-y-4">
+                <div className="space-y-3">
                   {offerings.map((offering) => (
-                    <div key={offering.title} className="bg-white shadow-md rounded-lg p-5">
-                      <h3 className="text-lg font-medium mb-2">{offering.title}</h3>
-                      <ul className="text-sm text-gray-600 space-y-1">
+                    <div key={offering.title} className="bg-white shadow-md rounded-lg px-5 py-4">
+                      <h3 className="text-lg font-medium mb-1">{offering.title}</h3>
+                      <ul className="text-sm text-gray-600 space-y-0.5">
                         {offering.items.map((item) => (
                           <li key={item} className="flex items-center">
                             <CheckIcon />
