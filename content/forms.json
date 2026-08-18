@@ -1,11 +1,6 @@
 {
-  "clientContact": {
-    "title": "Client Contact",
-    "description": "Questions, introductions, or general inquiries. Use the Google Drive contact form when available, or send us a message below.",
-    "googleDriveUrl": ""
-  },
-  "projectInterest": {
-    "title": "Project Interest",
-    "description": "Share a project idea and we will follow up to see whether SUDS is a good fit."
-  }
+  "title": "Project Interest Form",
+  "description": "Share your organization details and project ideas. A board member will reach out with next steps and meeting scheduling.",
+  "url": "https://forms.gle/SfPsQqXHucA1LgNTA",
+  "embedUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeckY1GmvfU3FQefmmXhNatSyKIMI_jZDTL6P_piOinl_R_fA/viewform?embedded=true"
 }

@@ -1,9 +1,8 @@
 import type { Metadata } from "next";
 import Image from "next/image";
-import ClientContactForm from "@/components/ClientContactForm";
 import ProjectInterestForm from "@/components/ProjectInterestForm";
 import { getClients } from "@/lib/clients";
-import { getSiteForms } from "@/lib/forms";
+import { getProjectInterestForm } from "@/lib/forms";
 
 export const metadata: Metadata = {
   title: "Work With Us",
@@ -97,7 +96,7 @@ const processSteps = [
 
 export default function WorkWithUsPage() {
   const clients = getClients();
-  const forms = getSiteForms();
+  const projectInterestForm = getProjectInterestForm();
 
   return (
     <>
@@ -202,17 +201,8 @@ export default function WorkWithUsPage() {
 
       <section className="py-16">
         <div className="container mx-auto px-4">
-          <div className="max-w-6xl mx-auto">
-            <h2 className="text-center mb-4">Client Forms</h2>
-            <p className="text-center text-gray-600 max-w-2xl mx-auto mb-12">
-              Choose the form that fits your needs. The contact form links to
-              Google Drive, and the project interest form helps us scope a
-              possible partnership.
-            </p>
-            <div className="grid lg:grid-cols-2 gap-8 items-start">
-              <ClientContactForm form={forms.clientContact} />
-              <ProjectInterestForm form={forms.projectInterest} />
-            </div>
+          <div className="max-w-4xl mx-auto">
+            <ProjectInterestForm form={projectInterestForm} />
           </div>
         </div>
       </section>
