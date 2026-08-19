@@ -16,12 +16,10 @@ export default function HomePage() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row items-center gap-8">
             <div className="md:w-1/2">
-              <h1 className="mb-6">Students Using Data for Social Good</h1>
+              <h1 className="mb-6">Student Using Data for Social Good</h1>
               <p className="text-xl text-gray-700 mb-8">
-                Our organization connects with non-profit organizations to
-                collaborate on a variety of data-driven projects across multiple
-                domains. We are dedicated to leveraging data analysis to create a
-                positive impact in our community.
+                We strengthen the Pittsburgh community through partnering with local 
+                nonprofits to provide pro bono services, based on real data.
               </p>
               <div className="flex flex-wrap gap-4">
                 <Link href="/work-with-us" className="cta-button">
