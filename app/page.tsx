@@ -13,46 +13,39 @@ export default function HomePage() {
   return (
     <>
       <section className="py-20">
-        <div className="container mx-auto px-4">
-          <div className="flex flex-col md:flex-row items-center gap-8">
-            <div className="md:w-1/2">
-              <h1 className="mb-6">Students Using Data for Social Good</h1>
-              <p className="text-xl text-gray-700 mb-8">
-                We strengthen the Pittsburgh community through partnering with local 
-                nonprofits to provide pro bono services, based on real data.
-              </p>
-              <div className="flex flex-wrap gap-4">
-                <Link href="/work-with-us" className="cta-button">
-                  Work With Us
-                </Link>
-                <Link
-                  href="/projects"
-                  className="bg-white hover:bg-gray-100 text-accent-600 border border-accent-600 font-medium rounded transition-colors inline-flex items-center justify-center h-10 px-6"
-                >
-                  View Our Projects
-                </Link>
-              </div>
-            </div>
-            <div className="md:w-1/2 relative">
-              <div className="bg-accent-100 max-w-[600px] max-h-[400px] rounded-lg p-4 relative z-10">
-                <Image
-                  src="/hammerschlag.jpg"
-                  alt="Hammerschlag Hall at Carnegie Mellon University"
-                  width={1200}
-                  height={800}
-                  className="rounded-lg shadow-lg"
-                />
-              </div>
-              <div className="absolute inset-0 bg-accent-200 rounded-lg transform translate-x-4 translate-y-4 -z-10" />
+        <div className="h-screen bg-[('/hammerschlag.jpg')] 
+        bg-cover bg-center relative flex flex-col justify-center">
+          <div className="flex items-center gap-8">
+            <h1 className="mb-6">Students Using Data for Social Good</h1>
+            <div className="flex flex-wrap gap-4">
+              <Link href="/work-with-us" className="cta-button">
+                Work With Us
+              </Link>
+              <Link
+                href="/projects"
+                className="bg-white hover:bg-gray-100 text-accent-600 border border-accent-600 font-medium rounded transition-colors inline-flex items-center justify-center h-10 px-6"
+              >
+                View Our Projects
+              </Link>
             </div>
           </div>
+        </div>
+      </section>
+    
+      <section className="py-10 bg-primary-600">
+        <div className="container mx-auto px-4">
+          <p className="mb-2 text-lg text-white font-semibold">
+            We strengthen the Pittsburgh community through partnering
+            with local nonprofits to provide data analysis services,
+            <span className="font-bold">completely pro bono.</span>
+          </p>
         </div>
       </section>
 
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
           <h2 className="text-center mb-8">Past Clients</h2>
-          <p className="text-center text-gray-600 max-w-2xl mx-auto mb-12">
+          <p className="text-center text-lg text-gray-600 max-w-2xl mx-auto mb-12">
             We&apos;ve had the privilege of working with a diverse range of
             organizations committed to making a positive impact. Here are some of
             the partners we&apos;ve collaborated with on data-driven projects.
@@ -122,6 +115,23 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+      
+      <section className="py-16 bg-grey-50">
+        <div>
+          <div className="container mx-auto px-4">
+              <h2 className="mb-6">SUDS Calendar</h2>
+              <p className="text-lg text-gray-700 mb-8">
+                Catch us at one of our meetings!
+              </p>
+            <div className="flex items-center justify-center">
+              <iframe src="https://calendar.google.com/calendar/embed?src=c_d0373453f1cd3b101e8d724ff6a1afd5200d564fd6b030b0ee934dbcd9136187%40group.calendar.google.com&ctz=America%2FNew_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no">
+              </iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
     </>
   );
 }
