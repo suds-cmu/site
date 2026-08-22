@@ -12,33 +12,33 @@ export default function HomePage() {
 
   return (
     <>
-      <section className="py-20">
-        <div className="h-screen bg-[('/hammerschlag.jpg')] 
-        bg-cover bg-center relative flex flex-col justify-center">
-          <div className="flex items-center gap-8">
-            <h1 className="mb-6">Students Using Data for Social Good</h1>
-            <div className="flex flex-wrap gap-4">
-              <Link href="/work-with-us" className="cta-button">
-                Work With Us
-              </Link>
-              <Link
-                href="/projects"
-                className="bg-white hover:bg-gray-100 text-accent-600 border border-accent-600 font-medium rounded transition-colors inline-flex items-center justify-center h-10 px-6"
-              >
-                View Our Projects
-              </Link>
-            </div>
-          </div>
-        </div>
-      </section>
-    
-      <section className="py-10 bg-primary-600">
-        <div className="container mx-auto px-4">
-          <p className="mb-2 text-lg text-white font-semibold">
-            We strengthen the Pittsburgh community through partnering
-            with local nonprofits to provide data analysis services,
-            <span className="font-bold">completely pro bono.</span>
+      <section>
+        <div className="bg-[url('/hammerschlag.jpg')] 
+        bg-cover bg-center justify-center"> 
+        <div className="flex flex-col">
+          <h1 className="text-6xl text-center text-white mx-auto pt-50 mb-8">
+            Students Using Data for Social Good
+          </h1>
+          <p className="text-3xl text-white mx-auto mb-10 max-w-3xl text-center">
+            We strengthen the Pittsburgh community through partnering with local nonprofits 
+          to provide data analysis services, <span className="underline">completely pro bono.</span>
           </p>
+          <div className="flex flex-wrap justify-center gap-14 mb-30 translate-x-[-1.7%]
+          ]">
+            <Link href="/work-with-us" className="cta-button">
+              Work With Us
+            </Link>
+            <Link
+              href="/projects"
+              className="bg-white hover:bg-gray-100 text-accent-600 
+              border border-accent-600 
+              font-medium rounded transition-colors 
+              inline-flex items-center justify-center h-10 px-2"
+            >
+              View Our Projects
+            </Link>
+          </div>
+          </div>
         </div>
       </section>
 
@@ -116,19 +116,18 @@ export default function HomePage() {
         </div>
       </section>
       
-      <section className="py-16 bg-grey-50">
-        <div>
+      <section className="py-16 bg-gray-50">
           <div className="container mx-auto px-4">
-              <h2 className="mb-6">SUDS Calendar</h2>
-              <p className="text-lg text-gray-700 mb-8">
+              <h2 className="mb-6 text-center">SUDS Calendar</h2>
+              <p className="text-lg text-center text-gray-700 mb-8">
                 Catch us at one of our meetings!
               </p>
             <div className="flex items-center justify-center">
-              <iframe src="https://calendar.google.com/calendar/embed?src=c_d0373453f1cd3b101e8d724ff6a1afd5200d564fd6b030b0ee934dbcd9136187%40group.calendar.google.com&ctz=America%2FNew_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no">
+              <iframe src="https://calendar.google.com/calendar/embed?src=c_d0373453f1cd3b101e8d724ff6a1afd5200d564fd6b030b0ee934dbcd9136187%40group.calendar.google.com&ctz=America%2FNew_York"
+              className="w-800 h-150 rounded">
               </iframe>
             </div>
           </div>
-        </div>
       </section>
 
 
