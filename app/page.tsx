@@ -16,10 +16,12 @@ export default function HomePage() {
         <div className="bg-[url('/hammerschlag.jpg')] 
         bg-cover bg-center justify-center"> 
         <div className="flex flex-col">
-          <h1 className="text-6xl text-center text-white mx-auto pt-50 mb-8">
+          <h1 className="text-6xl text-center text-white 
+          mx-auto pt-50 mb-6 text-shadow-lg">
             Students Using Data for Social Good
           </h1>
-          <p className="text-3xl text-white mx-auto mb-10 max-w-3xl text-center">
+          <p className="text-3xl text-white mx-auto mb-10 
+          max-w-3xl text-center text-shadow-lg">
             We strengthen the Pittsburgh community through partnering with local nonprofits 
           to provide data analysis services, <span className="underline">completely pro bono.</span>
           </p>
