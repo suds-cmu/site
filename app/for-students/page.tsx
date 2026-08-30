@@ -115,10 +115,10 @@ export default function ForStudentsPage() {
   ];
 
   const skills = [
-    "Experience with Python, R, or other data analysis tools",
-    "Understanding of data analysis techniques",
-    "Comfort working with data and learning new tools as needed",
-    "Strong communication and teamwork abilities",
+  "An interest in data and its real-world impact",
+  "Interest in exploring tools like Python or R",
+  "Comfort asking questions when you’re unsure",
+  "Excited to work with others on a team",
   ];
 
   const commitments = [
@@ -266,7 +266,7 @@ export default function ForStudentsPage() {
               </h2>
             </div>
 
-            <div className="grid gap-6 lg:grid-cols-[1.08fr_0.92fr]">
+            <div className="grid gap-6 lg:grid-cols-2">
               {/* Skills */}
               <div className="relative overflow-hidden rounded-3xl border border-gray-200 bg-white p-8 md:p-10">
                 <div className="absolute -right-16 -top-16 h-44 w-44 rounded-full bg-accent-50" />
@@ -349,20 +349,19 @@ export default function ForStudentsPage() {
                   </div>
                 </div>
 
-                <ul className="space-y-5">
+                <div className="grid gap-4 sm:grid-cols-2">
                   {commitments.map((item) => (
-                    <li
+                    <div
                       key={item}
-                      className="flex items-start gap-3 border-b border-gray-200 pb-5 last:border-0 last:pb-0"
+                      className="flex items-start gap-3 rounded-2xl bg-white p-4 transition-colors hover:bg-accent-50"
                     >
-                      <div className="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-white shadow-sm">
-                        <CheckIcon />
-                      </div>
-
-                      <span className="leading-6 text-gray-700">{item}</span>
-                    </li>
+                      <CheckIcon />
+                      <span className="text-sm leading-6 text-gray-700">
+                        {item}
+                      </span>
+                    </div>
                   ))}
-                </ul>
+                </div>
               </div>
             </div>
           </div>
@@ -399,7 +398,7 @@ export default function ForStudentsPage() {
                   rel="noopener noreferrer"
                   className="inline-flex shrink-0 items-center justify-center rounded-xl bg-accent-600 px-7 py-3.5 font-semibold text-white shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:bg-accent-700 hover:shadow-md"
                 >
-                  Join Our Mailing List
+                  Join Our Tartan Connect
                 </a>
               </div>
             </div>
