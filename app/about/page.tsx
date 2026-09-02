@@ -24,146 +24,332 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="py-16">
-        <div className="container mx-auto px-4">
-          <div className="max-w-6xl mx-auto">
-            <h2 className="mb-6">Our Mission</h2>
-            <p className="text-lg mb-12">
-              We are dedicated to leveraging data analysis to create a positive
-              impact in our community. SUDS partners with nonprofits, government
-              agencies, and social impact organizations to help them accelerate
-              their work through data science, analytics, and machine learning.
-            </p>
+      {/* Mission + History */}
+      <section className="py-20 md:py-24">
+        <div className="container mx-auto px-6">
+          <div className="mx-auto grid max-w-6xl gap-12 md:grid-cols-2 lg:gap-20">
+            {/* Mission */}
+            <div>
+              <p className="mb-3 text-sm font-semibold uppercase tracking-[0.15em] text-primary-600">
+                What We Believe
+              </p>
 
-            <h2 className="mb-6">Our History</h2>
-            <p className="mb-4">
-              Students Using Data for Social Good (SUDS) was founded in 2017 at
-              Carnegie Mellon University with a simple but powerful vision: to
-              connect students passionate about data science with organizations
-              working to make a positive social impact.
-            </p>
-            <p className="mb-4">
-              What began as a small group of students has grown into a vibrant
-              community of data scientists, analysts, and machine learning
-              enthusiasts committed to using their skills for good.
-            </p>
-            <p className="mb-12">
-              Over the years, we&apos;ve partnered with dozens of organizations
-              across various sectors, helping them leverage data to enhance their
-              operations, reach more people, and maximize their impact.
-            </p>
+              <h2 className="mb-5 text-3xl font-bold tracking-tight text-gray-900">
+                Our Mission
+              </h2>
 
-            <h2 className="mb-6">Our Data Science Community</h2>
-            <div className="flex flex-col md:flex-row items-center mb-12 gap-8">
-              <div className="md:w-1/4">
-                <Image
-                  src="/dsc.svg"
-                  alt="CMU Data Science Club Logo"
-                  width={200}
-                  height={200}
-                  className="mx-auto"
-                />
+              <p className="text-lg leading-8 text-gray-600">
+                We are dedicated to using data to create meaningful impact in
+                our community. SUDS partners with nonprofits, government
+                agencies, and social impact organizations to help them
+                accelerate their work through data science, analytics, and
+                machine learning.
+              </p>
+            </div>
+
+            {/* History */}
+            <div>
+              <p className="mb-3 text-sm font-semibold uppercase tracking-[0.15em] text-primary-600">
+                Since 2017
+              </p>
+
+              <h2 className="mb-5 text-3xl font-bold tracking-tight text-gray-900">
+                Our History
+              </h2>
+
+              <p className="mb-4 leading-7 text-gray-600">
+                Students Using Data for Social Good was founded in 2017 at
+                Carnegie Mellon University with a vision to connect students
+                passionate about data with organizations working to create
+                positive social impact.
+              </p>
+
+              <p className="leading-7 text-gray-600">
+                Since then, SUDS has grown into a community of students applying
+                their technical skills to real-world challenges across a variety
+                of sectors.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Impact Stats */}
+      <section className="pb-20 md:pb-24">
+        <div className="container mx-auto px-6">
+          <div className="mx-auto max-w-6xl rounded-2xl border border-gray-200 bg-white px-6 py-10 shadow-sm md:px-10">
+            <div className="grid grid-cols-2 gap-8 md:grid-cols-4">
+              <div className="text-center">
+                <p className="text-3xl font-bold text-gray-900 md:text-4xl">
+                  2017
+                </p>
+                <p className="mt-2 text-sm text-gray-500 md:text-base">
+                  Founded at CMU
+                </p>
               </div>
-              <div className="md:w-3/4">
-                <p className="mb-4">
-                  SUDS is proud to be part of Carnegie Mellon&apos;s vibrant data
-                  science ecosystem. Our sister organization, the{" "}
+
+              <div className="text-center">
+                <p className="text-3xl font-bold text-gray-900 md:text-4xl">
+                  25+
+                </p>
+                <p className="mt-2 text-sm text-gray-500 md:text-base">
+                  Partner Organizations
+                </p>
+              </div>
+
+              <div className="text-center">
+                <p className="text-3xl font-bold text-gray-900 md:text-4xl">
+                  50+
+                </p>
+                <p className="mt-2 text-sm text-gray-500 md:text-base">
+                  Student Consultants
+                </p>
+              </div>
+
+              <div className="text-center">
+                <p className="text-3xl font-bold text-gray-900 md:text-4xl">
+                  30+
+                </p>
+                <p className="mt-2 text-sm text-gray-500 md:text-base">
+                  Projects Completed
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* How We Work */}
+      <section className="bg-gray-50 py-20 md:py-24">
+        <div className="container mx-auto px-6">
+          <div className="mx-auto max-w-6xl">
+            <div className="mb-12 max-w-3xl">
+              <p className="mb-3 text-sm font-semibold uppercase tracking-[0.15em] text-primary-600">
+                Our Process
+              </p>
+
+              <h2 className="mb-4 text-3xl font-bold tracking-tight text-gray-900">
+                How We Work
+              </h2>
+
+              <p className="text-lg leading-7 text-gray-600">
+                Every SUDS project brings students and organizations together to
+                turn real challenges into practical, data-driven solutions.
+              </p>
+            </div>
+
+            <div className="grid gap-6 md:grid-cols-3">
+              {/* Partner */}
+              <div className="group rounded-2xl border border-gray-200 bg-white p-8 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-md">
+                <div className="mb-6 flex h-12 w-12 items-center justify-center rounded-xl bg-primary-50 text-sm font-bold text-primary-600">
+                  01
+                </div>
+
+                <h3 className="mb-3 text-xl font-semibold text-gray-900">
+                  Partner
+                </h3>
+
+                <p className="leading-7 text-gray-600">
+                  We collaborate with nonprofits, community organizations, and
+                  social impact groups to understand their goals and identify
+                  where data can help.
+                </p>
+              </div>
+
+              {/* Analyze */}
+              <div className="group rounded-2xl border border-gray-200 bg-white p-8 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-md">
+                <div className="mb-6 flex h-12 w-12 items-center justify-center rounded-xl bg-primary-50 text-sm font-bold text-primary-600">
+                  02
+                </div>
+
+                <h3 className="mb-3 text-xl font-semibold text-gray-900">
+                  Analyze
+                </h3>
+
+                <p className="leading-7 text-gray-600">
+                  Student teams explore the data, build models, create
+                  visualizations, and develop solutions tailored to each
+                  organization&apos;s needs.
+                </p>
+              </div>
+
+              {/* Impact */}
+              <div className="group rounded-2xl border border-gray-200 bg-white p-8 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-md">
+                <div className="mb-6 flex h-12 w-12 items-center justify-center rounded-xl bg-primary-50 text-sm font-bold text-primary-600">
+                  03
+                </div>
+
+                <h3 className="mb-3 text-xl font-semibold text-gray-900">
+                  Impact
+                </h3>
+
+                <p className="leading-7 text-gray-600">
+                  We deliver actionable insights, tools, and recommendations
+                  that organizations can use to strengthen and expand their
+                  impact.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Data Science Community */}
+      <section className="py-20 md:py-24">
+        <div className="container mx-auto px-6">
+          <div className="mx-auto max-w-6xl">
+            <div className="flex flex-col items-center gap-10 rounded-3xl bg-primary-50 p-8 md:flex-row md:p-12 lg:gap-14">
+              <div className="flex w-full justify-center md:w-1/4">
+                <div className="flex h-48 w-48 items-center justify-center rounded-2xl bg-white p-6 shadow-sm">
+                  <Image
+                    src="/dsc.svg"
+                    alt="CMU Data Science Club Logo"
+                    width={160}
+                    height={160}
+                    className="h-auto w-full"
+                  />
+                </div>
+              </div>
+
+              <div className="w-full md:w-3/4">
+                <p className="mb-3 text-sm font-semibold uppercase tracking-[0.15em] text-primary-600">
+                  CMU Data Community
+                </p>
+
+                <h2 className="mb-5 text-3xl font-bold tracking-tight text-gray-900">
+                  Part of something bigger
+                </h2>
+
+                <p className="mb-4 leading-7 text-gray-600">
+                  SUDS is proud to be part of Carnegie Mellon&apos;s broader
+                  data science community. Our sister organization, the{" "}
                   <a
                     href="https://cmudsc.com/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-accent-600 hover:text-accent-800 font-medium"
+                    className="font-semibold text-primary-600 underline-offset-4 transition hover:text-primary-800 hover:underline"
                   >
                     CMU Data Science Club
                   </a>
-                  , focuses on helping students develop their data science skills
-                  through events, workshops, and competitions.
+                  , focuses on helping students strengthen their technical
+                  skills through workshops, events, and competitions.
                 </p>
-                <p className="mb-4">
+
+                <p className="leading-7 text-gray-600">
                   While SUDS emphasizes applying data skills through real-world
                   consulting projects for social good, the Data Science Club
-                  provides valuable learning opportunities for students looking to
-                  build and enhance their technical abilities in the field.
+                  provides valuable learning opportunities for students looking
+                  to build and enhance their technical abilities in the field.
                 </p>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
 
-            <h2 className="mb-6">How We Work</h2>
-            <div className="grid md:grid-cols-3 gap-8 mb-16">
-              <div>
-                <div className="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mb-4">
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-primary-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
-                  </svg>
-                </div>
-                <h3 className="text-xl mb-2">Partner</h3>
-                <p className="text-gray-600">
-                  We collaborate with organizations that are making a difference in
-                  their communities.
-                </p>
-              </div>
-              <div>
-                <div className="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mb-4">
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-primary-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
-                  </svg>
-                </div>
-                <h3 className="text-xl mb-2">Analyze</h3>
-                <p className="text-gray-600">
-                  Our student teams apply data science and analytics to solve
-                  real-world problems.
-                </p>
-              </div>
-              <div>
-                <div className="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mb-4">
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-primary-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
-                  </svg>
-                </div>
-                <h3 className="text-xl mb-2">Impact</h3>
-                <p className="text-gray-600">
-                  We deliver insights and solutions that help organizations amplify
-                  their social impact.
-                </p>
-              </div>
+      {/* Board */}
+      <section className="border-t border-gray-100 bg-white py-20 md:py-24">
+        <div className="container mx-auto px-6">
+          <div className="mx-auto max-w-6xl">
+            <div className="mb-12">
+              <p className="mb-3 text-sm font-semibold uppercase tracking-[0.15em] text-primary-600">
+                Our Team
+              </p>
+
+              <h2 className="mb-4 text-3xl font-bold tracking-tight text-gray-900">
+                Meet the Board
+              </h2>
+
+              <p className="max-w-2xl text-lg leading-7 text-gray-600">
+                Meet the students leading SUDS, organizing projects, and helping
+                connect student teams with organizations across the community.
+              </p>
             </div>
 
-            <h2 className="mb-8">Meet the Board</h2>
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-12">
+            <div className="grid gap-x-8 gap-y-12 sm:grid-cols-2 lg:grid-cols-3">
               {boardMembers.map((member) => (
-                <div key={member.name}>
-                  <div className="mb-5 overflow-hidden rounded-2xl aspect-[3/2] w-full relative">
+                <div key={member.name} className="group">
+                  <div className="relative mb-5 aspect-[4/3] w-full overflow-hidden rounded-2xl bg-gray-100">
                     <Image
                       src={member.picture}
                       alt={`Photo of ${member.name}`}
                       fill
-                      className="object-cover"
-                      sizes="(max-width: 768px) 100vw, 33vw"
+                      className="object-cover transition-transform duration-500 group-hover:scale-105"
+                      sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                     />
                   </div>
+
                   <div>
-                    <div className="flex justify-between items-center">
-                      <h3 className="text-lg font-semibold tracking-tight text-gray-900 leading-none">
+                    <div className="flex items-center justify-between gap-4">
+                      <h3 className="text-lg font-semibold tracking-tight text-gray-900">
                         {member.name}
                       </h3>
+
                       {member.linkedin && (
                         <a
                           href={member.linkedin}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="text-accent-600 hover:text-accent-800"
+                          className="flex h-9 w-9 items-center justify-center rounded-full text-gray-400 transition hover:bg-primary-50 hover:text-primary-600"
                           aria-label={`${member.name}'s LinkedIn profile`}
                         >
-                          <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            className="h-5 w-5"
+                            fill="currentColor"
+                            viewBox="0 0 24 24"
+                          >
                             <path d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z" />
                           </svg>
                         </a>
                       )}
                     </div>
-                    <p className="text-base text-gray-600 mt-0.5">{member.title}</p>
+
+                    <p className="mt-1 text-base text-gray-500">
+                      {member.title}
+                    </p>
                   </div>
                 </div>
               ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* CTA */}
+      <section className="pb-24 pt-8">
+        <div className="container mx-auto px-6">
+          <div className="mx-auto max-w-6xl">
+            <div className="rounded-3xl bg-gradient-to-br from-primary-50 via-white to-accent-50 px-6 py-14 text-center ring-1 ring-gray-100 md:px-12 md:py-16">
+              <p className="mb-3 text-sm font-semibold uppercase tracking-[0.15em] text-primary-600">
+                Get Involved
+              </p>
+
+              <h2 className="mb-4 text-3xl font-bold tracking-tight text-gray-900 md:text-4xl">
+                Want to work with SUDS?
+              </h2>
+
+              <p className="mx-auto mb-8 max-w-2xl text-lg leading-7 text-gray-600">
+                Whether you&apos;re a student interested in joining a project or
+                an organization looking to use data more effectively, we&apos;d
+                love to hear from you.
+              </p>
+
+              <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
+                <Link
+                  href="/contact"
+                  className="inline-flex min-w-40 items-center justify-center rounded-xl bg-primary-600 px-6 py-3 font-medium text-white shadow-sm transition hover:bg-primary-700 hover:shadow-md"
+                >
+                  Work With Us
+                </Link>
+
+                <Link
+                  href="/projects"
+                  className="inline-flex min-w-40 items-center justify-center rounded-xl border border-gray-300 bg-white px-6 py-3 font-medium text-gray-700 shadow-sm transition hover:border-gray-400 hover:bg-gray-50"
+                >
+                  Explore Our Projects
+                </Link>
+              </div>
             </div>
           </div>
         </div>
