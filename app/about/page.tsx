@@ -12,22 +12,13 @@ export default function AboutPage() {
 
   return (
     <>
-      {/* Hero */}
-      <section className="relative overflow-hidden bg-gradient-to-br from-primary-50 via-white to-accent-50">
-        <div className="container mx-auto px-6 py-24 md:py-32">
-          <div className="mx-auto max-w-4xl text-center">
-            <p className="mb-4 text-sm font-semibold uppercase tracking-[0.2em] text-primary-600">
-              Students Using Data for Social Good
-            </p>
-
-            <h1 className="mb-6 text-4xl font-bold tracking-tight text-gray-900 md:text-6xl">
-              Data that makes a difference.
-            </h1>
-
-            <p className="mx-auto max-w-3xl text-lg leading-relaxed text-gray-600 md:text-xl">
-              We connect Carnegie Mellon students with mission-driven
-              organizations to solve real-world problems through data science,
-              analytics, and machine learning.
+      <section className="bg-gradient-to-br from-primary-50 to-white py-16">
+        <div className="container mx-auto px-4">
+          <div className="max-w-6xl mx-auto text-center">
+            <h1 className="mb-6">ABOUT SUDS</h1>
+            <p className="text-xl text-gray-700">
+              Learn about our mission, history, and the team behind Students Using
+              Data for Social Good.
             </p>
           </div>
         </div>

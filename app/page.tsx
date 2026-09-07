@@ -12,41 +12,34 @@ export default function HomePage() {
 
   return (
     <>
-      <section className="py-20">
-        <div className="container mx-auto px-4">
-          <div className="flex flex-col md:flex-row items-center gap-8">
-            <div className="md:w-1/2">
-              <h1 className="mb-6">Students Using Data for Social Good</h1>
-              <p className="text-xl text-gray-700 mb-8">
-                Our organization connects with non-profit organizations to
-                collaborate on a variety of data-driven projects across multiple
-                domains. We are dedicated to leveraging data analysis to create a
-                positive impact in our community.
-              </p>
-              <div className="flex flex-wrap gap-4">
-                <Link href="/work-with-us" className="cta-button">
-                  Work With Us
-                </Link>
-                <Link
-                  href="/projects"
-                  className="bg-white hover:bg-gray-100 text-accent-600 border border-accent-600 font-medium rounded transition-colors inline-flex items-center justify-center h-10 px-6"
-                >
-                  View Our Projects
-                </Link>
-              </div>
-            </div>
-            <div className="md:w-1/2 relative">
-              <div className="bg-accent-100 max-w-[600px] max-h-[400px] rounded-lg p-4 relative z-10">
-                <Image
-                  src="/hammerschlag.jpg"
-                  alt="Hammerschlag Hall at Carnegie Mellon University"
-                  width={1200}
-                  height={800}
-                  className="rounded-lg shadow-lg"
-                />
-              </div>
-              <div className="absolute inset-0 bg-accent-200 rounded-lg transform translate-x-4 translate-y-4 -z-10" />
-            </div>
+      <section>
+        <div className="bg-[url('/hammerschlag.jpg')] 
+        bg-cover bg-center justify-center"> 
+        <div className="flex flex-col">
+          <h1 className="text-6xl text-center text-white 
+          mx-auto pt-50 mb-6 text-shadow-lg">
+            Students Using Data for Social Good
+          </h1>
+          <p className="text-3xl text-white mx-auto mb-10 
+          max-w-3xl text-center text-shadow-lg">
+            We strengthen the Pittsburgh community through partnering with local nonprofits 
+          to provide data analysis services, <span className="underline">completely pro bono.</span>
+          </p>
+          <div className="flex flex-wrap justify-center gap-14 mb-30 translate-x-[-1.7%]
+          ]">
+            <Link href="/work-with-us" className="cta-button">
+              Work With Us
+            </Link>
+            <Link
+              href="/projects"
+              className="bg-white hover:bg-gray-100 text-accent-600 
+              border border-accent-600 
+              font-medium rounded transition-colors 
+              inline-flex items-center justify-center h-10 px-2"
+            >
+              View Our Projects
+            </Link>
+          </div>
           </div>
         </div>
       </section>
@@ -54,7 +47,7 @@ export default function HomePage() {
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
           <h2 className="text-center mb-8">Past Clients</h2>
-          <p className="text-center text-gray-600 max-w-2xl mx-auto mb-12">
+          <p className="text-center text-lg text-gray-600 max-w-2xl mx-auto mb-12">
             We&apos;ve had the privilege of working with a diverse range of
             organizations committed to making a positive impact. Here are some of
             the partners we&apos;ve collaborated with on data-driven projects.
@@ -124,6 +117,22 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+      
+      <section className="py-16 bg-gray-50">
+          <div className="container mx-auto px-4">
+              <h2 className="mb-6 text-center">SUDS Calendar</h2>
+              <p className="text-lg text-center text-gray-700 mb-8">
+                Catch us at one of our meetings!
+              </p>
+            <div className="flex items-center justify-center">
+              <iframe src="https://calendar.google.com/calendar/embed?src=c_d0373453f1cd3b101e8d724ff6a1afd5200d564fd6b030b0ee934dbcd9136187%40group.calendar.google.com&ctz=America%2FNew_York"
+              className="w-800 h-150 rounded">
+              </iframe>
+            </div>
+          </div>
+      </section>
+
+
     </>
   );
 }
