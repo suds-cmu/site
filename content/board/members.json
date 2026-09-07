@@ -1,44 +1,44 @@
 [
   {
-    "name": "Joanna Tan",
-    "title": "Executive Director",
-    "picture": "/board/Joanna.JPG",
-    "linkedin": "https://www.linkedin.com/in/joanna-t/"
-  },
-  {
-    "name": "Emily Zhu",
-    "title": "Tech Lead",
-    "picture": "/board/Emily.png",
-    "linkedin": "https://www.linkedin.com/in/eyzhu/"
-  },
-  {
-    "name": "May Ren",
-    "title": "Tech Lead",
-    "picture": "/board/May.JPG",
-    "linkedin": "https://www.linkedin.com/in/may-ren-396663321/"
-  },
-  {
-    "name": "Sophia Mou",
-    "title": "Outreach Chair",
-    "picture": "/board/Sophia.JPG",
-    "linkedin": "https://www.linkedin.com/in/sophia-mou/"
-  },
-  {
     "name": "Ahana Dey",
-    "title": "Outreach Chair",
-    "picture": "/board/Ahana.png",
+    "title": "Executive Director",
+    "picture": "/board/Ahana.jpg",
     "linkedin": "https://www.linkedin.com/in/ahana-dey-96b327297/"
   },
-  {
+ {
     "name": "Iris Ta",
-    "title": "Outreach Chair",
+    "title": "Tech Lead",
     "picture": "/board/Iris.jpg",
     "linkedin": "https://www.linkedin.com/in/irista"
   },
   {
-    "name": "Beverly Zheng",
-    "title": "Design Chair",
-    "picture": "/board/Beverly.JPG",
-    "linkedin": "https://www.linkedin.com/in/beverly-zheng/"
+    "name": "Grace Sng",
+    "title": "Tech Lead",
+    "picture": "/board/Grace.jpeg",
+    "linkedin": "https://www.linkedin.com/in/grace-sng-aaa30b247/"
+  },
+  {
+    "name": "Sai Pendekanti",
+    "title": "Outreach Chair",
+    "picture": "/board/Sai.jpg",
+    "linkedin": "https://www.linkedin.com/in/srisailakshmi-pendekanti-272730287/"
+  },
+  {
+    "name": "Jay Gurumurthy",
+    "title": "Outreach Chair",
+    "picture": "/board/Jay.jpeg",
+    "linkedin": "https://www.linkedin.com/in/dhananjay-gurumurthy/"
+  },
+  {
+    "name": "Justine Sullivan",
+    "title": "Outreach Chair",
+    "picture": "/board/Justine.jpg",
+    "linkedin": "https://www.linkedin.com/in/justine-sullivan"
+  },
+  {
+    "name": "Tiffany Chang",
+    "title": "Events Chair",
+    "picture": "/board/Tiffany.jpg",
+    "linkedin": "http://www.linkedin.com/in/tiffany-chang-890a4626a"
   }
 ]
